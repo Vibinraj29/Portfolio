@@ -1,0 +1,239 @@
+@media screen and (max-width:768px){
+    nav{
+        height:9vh;
+    }
+    nav ul{
+        position:absolute;
+        background-color: #fff;
+        filter:opacity(1.5);
+        width:100%;
+        top:53px;
+        text-align: center;
+        display:none;
+    }
+    nav ul li{
+        display: flex;
+        flex-direction: column;
+    }
+    .icon{
+        display:block;
+    }
+    .box{
+        width:85%;
+        margin-left:53px;
+    }
+    section#about{
+        margin-top:-140px;
+    }
+    .pp{
+        width:140%;
+        margin-top:91px;
+        margin-left:-16px;
+    }
+    .right2{
+        padding:44px;
+    }
+    .cards{
+        width:35%;
+    }
+    .modal-content{
+        width:55%;
+    }
+    section#Works{
+        margin-top:146px;
+    }
+}
+/*@media only screen and (min-width:375px) and (max-width:620px){
+    nav ul{
+        z-index:1;
+    }
+    section#home{
+        display:flex;
+        flex-direction: column-reverse;
+        position:relative;
+        top:0px;
+        right:-29px;
+        width:93%;
+    }
+    .left{
+        margin-bottom: 75px;
+        padding:0;  
+        width:94%;
+    }
+    .right{
+        width:50%;
+    }
+    .right img{
+        width:18rem;
+    }
+    .button{
+        border-radius: 30px;
+    }
+    section#about{
+        margin-top:-13px;
+        height:580px;
+    }
+    .box {
+        width: 79%;
+        margin-left: 39px;
+        height:550px;
+    }
+    .content{
+        flex-direction: column;
+       
+    }
+    .pp{
+        width:187%;
+        margin-top:21px;
+        margin-left:39px;
+    }
+    .right2{
+        word-wrap: break-word;
+        margin-top:-18px;
+        padding:0;
+        width:100%;
+        font-size:16px;
+    }
+    section#skills{
+        padding:25px 14px;
+    }
+    .cards{
+        width:66%;
+        height:229px;
+    }
+    .modal-content{
+        width:66%;
+    }
+    .progress{
+        display:flex;
+    }
+    .bar{
+        width:106px;
+    }
+    .dh1{
+        margin-left: 124px;
+    }
+    section#Works{
+        margin-top: 198%;
+    }
+    .content3{
+        margin-top:31px;
+    }
+    .row{
+        flex-direction: column;
+        
+    }
+    .col{
+        margin-left:54px;
+        height:33vh;
+    }
+    .web1{
+        width:90%;
+    }
+}*/
+@media only screen and (max-width:812px){
+    nav ul{
+        z-index:1;
+    }
+    section#home{
+        display:flex;
+        flex-direction: column-reverse;
+        position:relative;
+        top:0px;
+        right:-29px;
+        width:93%;
+    }
+    .left{
+        margin-bottom: 75px;
+        padding:0;  
+        width:94%;
+    }
+    .right{
+        width:50%;
+    }
+    .right img{
+        width:18rem;
+    }
+    .button{
+        border-radius: 30px;
+    }
+    section#about{
+        margin-top:-13px;
+        height:580px;
+    }
+    .box {
+        width: 79%;
+        margin-left: 39px;
+        height:550px;
+    }
+    .content{
+        flex-direction: column;
+       
+    }
+    .pp{
+        width:187%;
+        margin-top:21px;
+        margin-left:39px;
+    }
+    .right2{
+        word-wrap: break-word;
+        margin-top:-18px;
+        padding:0;
+        width:100%;
+        font-size:16px;
+    }
+    section#skills{
+        padding:25px 14px;
+    }
+    .cards{
+        width:66%;
+        height:229px;
+    }
+    .modal-content{
+        width:66%;
+    }
+    .progress{
+        display:flex;
+    }
+    .bar{
+        width:106px;
+    }
+    .dh1{
+        margin-left: 124px;
+    }
+    section#Works{
+        margin-top: 198%;
+    }
+    .content3{
+        margin-top:31px;
+    }
+    .row{
+        flex-direction: column;
+        
+    }
+    .col{
+        margin-left:54px;
+        height:33vh;
+    }
+    .web1{
+        width:90%;
+    }
+    footer{
+        width:100%;
+    }
+    .footer-row{
+        flex-direction: column;
+    }
+    .footer-left{
+        width:100%;
+        line-height: 3rem;
+        font-size: 17px;
+    }
+    .social{
+        margin-left: 0;
+        width:202%;
+    }
+    .footer-bottom{
+        width:90.5%;
+    }
+}
